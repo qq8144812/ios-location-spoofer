@@ -1473,13 +1473,13 @@ footer b{ color:#8fe0e6; }
     <div class="b"><b></b><br></div>
   </div>
   <div class="disc">
-    <div class="disc-t">免责声明</div>
+    <div class="disc-t"></div>
     <ol class="disc-list">
-      <li><b>仅供个人学习、研究与技术测试之用</b>，请勿用于任何违反所在国家/地区法律法规的用途。</li>
-      <li>使用本项目（含模块、脚本、选点页）所引发的<b>一切风险与后果，由使用者自行承担</b>，与开源项目原作者、贡献者及本页面维护者无关。</li>
-      <li>本项目与 <b>Apple Inc.</b> 无任何关联，不隶属、不代表 Apple，亦未获其授权或认可。</li>
-      <li>本项目<b></b>。</li>
-      <li>下载、安装或使用本项目，即视为你已阅读并同意本声明；如不同意，请立即停止使用。</li>
+      <li><b></li>
+      <li>。</li>
+      <li> .</b> </li>
+      <li><b></b>。</li>
+      <li></li>
     </ol>
   </div>
 
