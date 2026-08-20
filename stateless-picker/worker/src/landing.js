@@ -102,13 +102,13 @@ footer b{ color:#8fe0e6; }
 <body>
 <div class="wrap">
   <div class="warn">
-    <div class="t">⚠️ 免费开源项目 · 禁止售卖</div>
-    <div class="b"><b>如果你是通过付款来到本页面，请立即联系退款。</b><br>任何售卖本项目 / 模块的都是骗子。一经发现立即删库，血本无归。</div>
+    <div class="t">⚠️ </div>
+    <div class="b"><b></b><br>。</div>
   </div>
   <div class="disc">
     <div class="disc-t">免责声明</div>
     <ol class="disc-list">
-      <li>本项目为免费开源工具，<b>仅供个人学习、研究与技术测试之用</b>，请勿用于任何违反所在国家/地区法律法规的用途。</li>
+      <li><b>仅供个人学习、研究与技术测试之用</b>，请勿用于任何违反所在国家/地区法律法规的用途。</li>
       <li>使用本项目（含模块、脚本、选点页）所引发的<b>一切风险与后果，由使用者自行承担</b>，与开源项目原作者、贡献者及本页面维护者无关。</li>
       <li>本项目与 <b>Apple Inc.</b> 无任何关联，不隶属、不代表 Apple，亦未获其授权或认可。</li>
       <li>本项目<b>不在中国大陆提供服务</b>。</li>
@@ -119,20 +119,20 @@ footer b{ color:#8fe0e6; }
   <header>
     <div class="logowrap"><img class="logo" src="/icon.svg" alt=""></div>
     <h1>iOS Location Spoofer · 虚拟定位</h1>
-    <p class="ytline">📺 <a class="yt" href="https://www.youtube.com/@CyberHandyman/videos" target="_blank" rel="noopener">YouTube：CyberHandyman 赛博工具人</a></p>
+    <p class="ytline">📺 <a class="yt" href="" target="_blank" rel="noopener">YouTube：CyberHandyman </a></p>
     <p class="credit">
-      fork from 鸣谢贡献者：<a href="https://github.com/Yu9191/wloc" target="_blank" rel="noopener">Yu9191</a> ·
-      <a href="https://github.com/mekos2772/ios-location-spoofer" target="_blank" rel="noopener">mekos2772</a> ·
-      <a href="https://github.com/acheong08/ios-location-spoofer" target="_blank" rel="noopener">acheong08</a>
+      fork from ：<a href="" target="_blank" rel="noopener"></a> ·
+      <a href="" target="_blank" rel="noopener">mekos2772</a> ·
+      <a href="" target="_blank" rel="noopener">acheong08</a>
     </p>
     <p class="synced">✅ 已同步上游 <a href="https://github.com/Yu9191/wloc/releases" target="_blank" rel="noopener">Yu9191/wloc v1.1</a>：随机扰动半径 · 港澳台/百度坐标解析</p>
   </header>
 
   <div class="ctas">
     <a class="enter go" href="/picker">🗺️ 进入选点网页</a>
-    <a class="enter video" href="https://youtu.be/EspuRlKWUxc" target="_blank" rel="noopener">▶️ 视频教程</a>
+    <a class="enter video" " target="_blank" rel="noopener">▶️ </a>
   </div>
-  <a class="enter tg" href="https://t.me/cyberhandymancngroup" target="_blank" rel="noopener">✈️ 加入 Telegram 讨论群</a>
+  <a class="enter tg" href="" target="_blank" rel="noopener">✈️ 加入 Telegram 讨论群</a>
 
   <div class="divider"></div>
 
@@ -162,7 +162,7 @@ footer b{ color:#8fe0e6; }
 <div class="toast" id="toast"></div>
 <script>
 /* ---- Watermark: tiled, non-interactive, rebuilt if tampered with ---- */
-var WM_TEXT = 'YouTube：赛博工具人 @CyberHandyman 根据GitHub开源项目制作';
+var WM_TEXT = 'YouTube： @ 根据GitHub开源项目制作';
 function buildWM(){
   var host = document.getElementById('wm');
   if (!host){ host = document.createElement('div'); host.id = 'wm'; host.className = 'wm'; host.setAttribute('aria-hidden','true'); document.body.appendChild(host); }
