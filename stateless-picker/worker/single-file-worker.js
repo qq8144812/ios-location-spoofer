@@ -655,10 +655,10 @@ body {
   <a class="tg" href="https://t.me/cyberhandymancngroup" target="_blank" rel="noopener">✈️ TG群</a>
 </div>
 <div class="redbox">
-  <div class="rt">⚠️ 免费开源 · 禁止售卖</div>
-  <div class="rb"><b>如果你是通过付款来到本页面，请立即联系退款。</b>任何售卖本项目/模块的都是骗子，一经发现立即删库，血本无归！！！！<br>仅供学习研究，禁止违法用途，后果自负、与作者无关，与 Apple 无关。</div>
+  <div class="rt">⚠️ </div>
+  <div class="rb"><b>。</b>，<br>。</div>
 </div>
-<a class="vidbtn" href="https://youtu.be/EspuRlKWUxc" target="_blank" rel="noopener" data-i18n="video_btn">▶️ 视频教程（YouTube）</a>
+<a class="vidbtn" " target="_blank" rel="noopener" data-i18n="video_btn">▶️ 视频教程（YouTube）</a>
 <div style="position:relative">
 <div id="map"></div>
 <div class="lang-switch">
@@ -1469,16 +1469,16 @@ footer b{ color:#8fe0e6; }
 <body>
 <div class="wrap">
   <div class="warn">
-    <div class="t">⚠️ 免费开源项目 · 禁止售卖</div>
-    <div class="b"><b>如果你是通过付款来到本页面，请立即联系退款。</b><br>任何售卖本项目 / 模块的都是骗子。一经发现立即删库，血本无归。</div>
+    <div class="t">⚠️ </div>
+    <div class="b"><b></b><br></div>
   </div>
   <div class="disc">
     <div class="disc-t">免责声明</div>
     <ol class="disc-list">
-      <li>本项目为免费开源工具，<b>仅供个人学习、研究与技术测试之用</b>，请勿用于任何违反所在国家/地区法律法规的用途。</li>
+      <li><b>仅供个人学习、研究与技术测试之用</b>，请勿用于任何违反所在国家/地区法律法规的用途。</li>
       <li>使用本项目（含模块、脚本、选点页）所引发的<b>一切风险与后果，由使用者自行承担</b>，与开源项目原作者、贡献者及本页面维护者无关。</li>
       <li>本项目与 <b>Apple Inc.</b> 无任何关联，不隶属、不代表 Apple，亦未获其授权或认可。</li>
-      <li>本项目<b>不在中国大陆提供服务</b>。</li>
+      <li>本项目<b></b>。</li>
       <li>下载、安装或使用本项目，即视为你已阅读并同意本声明；如不同意，请立即停止使用。</li>
     </ol>
   </div>
@@ -1643,7 +1643,7 @@ app.get("/location-spoofer-qx.js", (c) => c.body(b64ToBytes(LOCATION_SPOOFER_QX_
 
 function sgmodule(origin) {
   return String.raw`#!name=iOS Location Spoofer (Stateless)
-#!desc=任何售卖本项目/模块的都是骗子，请立即联系退款。无状态版：坐标写入每台设备各自的本机存储、可公开共用、多人互不覆盖。搭配选点页使用。适用于 Shadowrocket / Surge / Egern。
+#!desc=适用于 Shadowrocket / Surge / Egern。
 #!homepage=${origin}
 
 [Script]
@@ -1655,7 +1655,7 @@ hostname = %APPEND% gs-loc.apple.com, gs-loc-cn.apple.com, bluedot.is.autonavi.c
 }
 function stoverride(origin) {
   return String.raw`name: iOS Location Spoofer (Stateless)
-desc: "任何售卖本项目/模块的都是骗子，请立即联系退款。iOS Location Spoofer 无状态版 (Stash)"
+desc: ""
 homepage: ${origin}
 
 http:
@@ -1687,7 +1687,7 @@ script-providers:
 }
 function lnplugin(origin) {
   return String.raw`#!name=iOS Location Spoofer (Stateless)
-#!desc=任何售卖本项目/模块的都是骗子，请立即联系退款。无状态版，配合选点页使用。Loon 插件。
+#!desc=配合选点页使用。Loon 插件。
 #!homepage=${origin}
 
 [Script]
@@ -1701,7 +1701,7 @@ hostname = gs-loc.apple.com, gs-loc-cn.apple.com, bluedot.is.autonavi.com, blued
 // not auto-merge MITM hostnames the way Surge modules do, so the user must add them manually.
 function qxsnippet(origin) {
   return String.raw`#!name=iOS Location Spoofer (Stateless)
-#!desc=任何售卖本项目/模块的都是骗子，请立即联系退款。无状态版。Quantumult X 用「重写(rewrite)引用」(非模块/插件)。MITM 主机名需手动加进 QX 设置 → MITM。
+#!desc=Quantumult X 用「重写(rewrite)引用」(非模块/插件)。MITM 主机名需手动加进 QX 设置 → MITM。
 #!homepage=${origin}
 
 [rewrite_local]
@@ -1794,7 +1794,7 @@ app.onError((e, c) => {
 });
 
 /* ---- Geo-restriction: block mainland China (CN); allow everywhere else ---- */
-const BLOCK_HTML = `<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Not available in your region</title><style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0b0b0f;color:#f2f2f7;font-family:-apple-system,system-ui,sans-serif;text-align:center;padding:28px}div{max-width:520px}h1{font-size:20px;margin-bottom:14px}p{color:#9a9aa8;font-size:14px;line-height:1.8}</style></head><body><div><h1>本服务在你所在地区不可用</h1><p>This service is not available in your region.<br><br>本项目免费开源、禁止售卖；仅面向中国大陆以外地区提供访问。<br>This free & open-source project is not for sale, and is served only outside mainland China.</p></div></body></html>`;
+const BLOCK_HTML = `<!DOCTYPE html><html lang="zh"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Not available in your region</title><style>body{margin:0;min-height:100vh;display:flex;align-items:center;justify-content:center;background:#0b0b0f;color:#f2f2f7;font-family:-apple-system,system-ui,sans-serif;text-align:center;padding:28px}div{max-width:520px}h1{font-size:20px;margin-bottom:14px}p{color:#9a9aa8;font-size:14px;line-height:1.8}</style></head><body><div><h1>本服务在你所在地区不可用</h1><p>This service is not available in your region.<br><br>仅面向中国大陆以外地区提供访问。<br>This free & open-source project is not for sale, and is served only outside mainland China.</p></div></body></html>`;
 
 export default {
   async fetch(request, env, ctx) {
